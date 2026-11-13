@@ -1,0 +1,8 @@
+{
+  "name": "bank-mfe-root",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel --filter \"./apps/*\" dev",
+    "build": "pnpm -r build"
+  }
+}
