@@ -2,7 +2,10 @@
   "name": "bank-mfe-root",
   "private": true,
   "scripts": {
-    "dev": "pnpm --parallel --filter \"./apps/*\" dev",
+    "dev": "pnpm --filter loan-mfe --filter onboarding-mfe build && concurrently -k -n loan-watch,onboard-watch,loan,onboard,shell -c blue,green,cyan,magenta,yellow \"pnpm --filter loan-mfe build:watch\" \"pnpm --filter onboarding-mfe build:watch\" \"pnpm --filter loan-mfe serve\" \"pnpm --filter onboarding-mfe serve\" \"pnpm --filter app-shell dev\"",
     "build": "pnpm -r build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }
