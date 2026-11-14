@@ -40,20 +40,3 @@ pnpm install
 pnpm dev
 
 
-### OR in three different Terminal.
-
-##Terminal 1:
-cd apps/loan-mfe
-pnpm build
-pnpm preview
-
-##Terminal 2:
-cd apps/onboarding-mfe
-pnpm build
-pnpm preview
-
-##Terminal 3:
-cd apps/app-shell
-pnpm dev
-
-
