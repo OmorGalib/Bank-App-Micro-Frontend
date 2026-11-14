@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
-import { Button, Card, Loader } from '@bank/ui-library';
+import { Loader, Card, Button } from '@bank/ui-library';
 import { ShieldCheck, ArrowRight } from 'lucide-react';
 import './index.css';
 

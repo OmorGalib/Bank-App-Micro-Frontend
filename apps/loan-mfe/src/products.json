@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Personal Loan", "rate": 8.5, "maxAmount": 50000 },
+  { "id": 2, "name": "Home Loan", "rate": 6.2, "maxAmount": 500000 },
+  { "id": 3, "name": "Auto Loan", "rate": 7.0, "maxAmount": 80000 }
+]
