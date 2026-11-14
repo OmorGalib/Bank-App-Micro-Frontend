@@ -34,8 +34,8 @@ Make sure you have **Node.js (v18+)** and **pnpm** installed globally.
 
 ```bash
 npm install -g pnpm
-git clone https://github.com/your-username/bank-mfe.git
-cd bank-mfe
+git clone https://github.com/OmorGalib/Bank-App-Micro-Frontend.git
+cd Bank-App-Micro-Frontend
 pnpm install
 pnpm dev
 
